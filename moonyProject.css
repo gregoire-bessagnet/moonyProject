@@ -5,6 +5,11 @@
     align-items: center;
 }
 
+#footer {
+    display: flex;
+    align-items: center;
+}
+
 .headerButton {
     display: flex;
     justify-content: space-between;
