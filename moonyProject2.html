@@ -16,7 +16,19 @@
 </head>
 
 <body>
+    
+    <!-- Scripts -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8&appId=684595955082032";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <script src="moonyJS.js"></script>
+    <!-- Fin de scripts -->
+
     <div id="header">
         <div class="headerLogo">
             <img src="logoFull.png" alt="Moony">
@@ -39,37 +51,79 @@
 
     </div>
 
+<!-- Footer -->
+
     <div id="footer" class="container">
 
-        <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#bordeaux-tab">Bordeaux</a></li>
-            <li><a data-toggle="tab" href="#biarritz-tab">Biarritz</a></li>
-        </ul>
+        <!-- Bloc Adresse -->
 
-        <div class="tab-content">
-            <div id="bordeaux-tab" class="tab-pane fade in active">
-                <h3>Bordeaux</h3>
-                <div class="col col-lg-7">
-                    <iframe src="https://www.google.com/maps/d/u/3/embed?mid=1zR7bPnBdqASIv_dO1N4QAcah9cY" width="640" height="320"></iframe>
-                </div>
-                <div class="col col-lg-5">
-                    <p>Some content.</p>
-                </div>
-                
+        <div id="bloc-adresse">
 
-            </div>
-        <div id="biarritz-tab" class="tab-pane fade">
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#bordeaux-tab">Bordeaux</a></li>
+                <li><a data-toggle="tab" href="#biarritz-tab">Biarritz</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="bordeaux-tab" class="tab-pane fade in active">
+                    <h3>Bordeaux</h3>
+                    <div class="col col-lg-7">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.358280480378!2d-0.5688454845803029!3d44.834636479098535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527cb8f9f0dd3%3A0x436287cdacb6f2bd!2sMoony!5e0!3m2!1sfr!2sfr!4v1488795385565" width="630" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col col-lg-5">
+                        <p> Bordeaux <br>
+                            28 Place Meynard<br>
+                            33000 Bordeaux <br>
+                            09 72 82 81 81
+                        </p>
+                        <div id="TA_cdsratingsonlynarrow276" class="TA_cdsratingsonlynarrow">
+                        <ul id="4y8vmVx0zSL" class="TA_links A1MG6sKUz">
+                        <li id="iGyAaRn" class="B7ui81jhkC">
+                        <a target="_blank" href="https://www.tripadvisor.fr/"><img src="https://www.tripadvisor.fr/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+                        </li>
+                        </ul>
+                        </div>
+                        <script src="https://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=276&amp;locationId=10284682&amp;lang=fr&amp;border=false&amp;shadow=true&amp;backgroundColor=gray&amp;display_version=2"></script>
+                    </div>
+                </div>
+             <div id="biarritz-tab" class="tab-pane fade">
                 <h3>Biarritz</h3>
                 <div class="col col-lg-7">
-                    <iframe src="https://www.google.com/maps/d/u/3/embed?mid=1zR7bPnBdqASIv_dO1N4QAcah9cY" width="640" height="320"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11579.849150657437!2d-1.5664646!3d43.4822574!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc16312733970622d!2sMoony%3A+The+Homemade+Burger+Factory!5e0!3m2!1sfr!2sfr!4v1488795315822" width="630" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
                 <div class="col col-lg-5">
-                     <p>Some content in menu 1.</p>
+                     <p>Biarritz <br>
+                        12 Rue du Port-Vieux <br>
+                        64200 Biarritz<br>
+                        05 59 24 71 05
+                    </p>
+                    <div id="TA_cdsratingsonlynarrow489" class="TA_cdsratingsonlynarrow">
+                    <ul id="1hCAcd" class="TA_links nZksbg6SXN">
+                    <li id="gj7N99FFov" class="bX8jVBY">
+                    <a target="_blank" href="https://www.tripadvisor.fr/"><img src="https://www.tripadvisor.fr/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+                    </li>
+                    </ul>
+                    </div>
+                    <script src="https://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=489&amp;locationId=2526815&amp;lang=fr&amp;border=false&amp;shadow=true&amp;backgroundColor=gray&amp;display_version=2"></script>
+                    </div>
                 </div>
+            </div>
 
         </div>
-        </div>
 
+        <!-- Fin de Bloc Adresse -->
+
+        <!-- Bloc Réseaux sociaux -->
+        <div id="social-media">
+
+
+
+        </div>
+        <!-- Fin de Bloc Réseaux sociaux -->
 
     </div>
+
+    <!-- Fin de Footer -->
+
+
 </body>
